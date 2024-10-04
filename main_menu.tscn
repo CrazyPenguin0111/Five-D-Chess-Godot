@@ -1,0 +1,82 @@
+[gd_scene format=3 uid="uid://7tbwd4b8ui5j"]
+
+[node name="Main Menu" type="Node2D"]
+
+[node name="VSplitContainer" type="VBoxContainer" parent="."]
+offset_left = 200.0
+offset_top = 240.0
+offset_right = 500.0
+offset_bottom = 840.0
+alignment = 1
+
+[node name="Play" type="Button" parent="VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 50
+text = "Play"
+
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="VSplitContainer"]
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+size_flags_vertical = 0
+stretch_mode = 0
+
+[node name="Puzzles" type="Button" parent="VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 50
+text = "Puzzles"
+
+[node name="AspectRatioContainer2" type="AspectRatioContainer" parent="VSplitContainer"]
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+size_flags_vertical = 0
+stretch_mode = 0
+
+[node name="Guide" type="Button" parent="VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 50
+text = "Guide"
+
+[node name="AspectRatioContainer3" type="AspectRatioContainer" parent="VSplitContainer"]
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+size_flags_vertical = 0
+stretch_mode = 0
+
+[node name="Options" type="Button" parent="VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 50
+text = "Options"
+
+[node name="AspectRatioContainer4" type="AspectRatioContainer" parent="VSplitContainer"]
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+size_flags_vertical = 0
+stretch_mode = 0
+
+[node name="Quit" type="Button" parent="VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 50
+text = "Analysis"
+
+[node name="AspectRatioContainer5" type="AspectRatioContainer" parent="VSplitContainer"]
+custom_minimum_size = Vector2(0, 25)
+layout_mode = 2
+size_flags_vertical = 0
+stretch_mode = 0
+
+[node name="Quit2" type="Button" parent="VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 50
+text = "Exit"

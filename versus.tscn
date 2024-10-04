@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://dlvvtykmxorve"]
+
+[node name="Versus" type="Node2D"]
+
+[node name="TabContainer" type="TabContainer" parent="."]
+offset_left = 100.0
+offset_top = 50.0
+offset_right = 1820.0
+offset_bottom = 980.0
+theme_override_constants/outline_size = 5
+theme_override_font_sizes/font_size = 50
+tab_alignment = 1
+current_tab = 0
+
+[node name="Create" type="ItemList" parent="TabContainer"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="Public" type="ItemList" parent="TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="Private" type="ItemList" parent="TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 2
